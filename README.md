@@ -83,7 +83,9 @@ Set up Python3-pip
 Increase and Use Virtual Memory 
 • Install and Launch Docker Elk Container
 The output of running docker ps after successfully configuring the ELK instance is shown in the following screenshot.
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/94246930/162865431-78b6f5be-eb85-4cb6-bea9-8f987d1685b1.png"> 
+
 The output of running docker ps after successfully configuring the ELK instance is shown in the following screenshot.
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
