@@ -1,6 +1,7 @@
 # Adenote-ELK-Stack
 Automated ELK Stack Deployment
 The network pictured below was configured using the files in this repository.
+![image](https://user-images.githubusercontent.com/94246930/162864557-27230090-6045-4baf-bb2f-bd9cdd628250.png)
  
 
 These files have been thoroughly tested and used to create a real ELK deployment on Azure. They may be used to reproduce the whole deployment seen in the image above. Select elements of the yml and config files, such as Filebeat, may also be used to install only particular parts of it.
@@ -82,7 +83,8 @@ Set up Python3-pip
 Increase and Use Virtual Memory 
 • Install and Launch Docker Elk Container
 The output of running docker ps after successfully configuring the ELK instance is shown in the following screenshot.
- 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/94246930/162865431-78b6f5be-eb85-4cb6-bea9-8f987d1685b1.png"> 
+The output of running docker ps after successfully configuring the ELK instance is shown in the following screenshot.
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 •	Web-2: 10.0.0.4
@@ -124,4 +126,4 @@ Commands to install ansible, write and run playbook:
 •	Create yml file by using the extenton: my_yml_file.yml
 •	Run yml file: ansible-playbook my_yml_file.yml
 •	
-![image](https://user-images.githubusercontent.com/94246930/162864557-27230090-6045-4baf-bb2f-bd9cdd628250.png)
+
