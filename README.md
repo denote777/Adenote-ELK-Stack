@@ -125,18 +125,29 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 Commands to install ansible, write and run playbook:
+•	First ssh into Jumpbox-Provisioner: ssh admin@jump-box-ip
 
+•	Then update Jumpbox: sudo apt-get update
 
-    First ssh into Jumpbox-Provisioner: ssh admin@jump-box-ip
-    Then update Jumpbox: sudo apt-get update
-    Install Docker.io: sudo apt install docker.io
-    Verify the status of docker: sudo systemctl status docker
-    Start Docker if it is not running: sudo systemctl start docker
-    Pull Ansible Docker Container : sudo docker pull cyberxsecurity/ansible
-    Launch Ansible Container: docker run -ti cyberxsecurity/ansible:latest bash
-    To View docker container list created: sudo docker ps
-    Start the Docker container created: sudo docker start container_name
-    Activate shell on container: sudo docker attach container_name
-    To view ansible created: cd /etc/ansible
-    Create yml file by using the extenton: my_yml_file.yml
-    Run yml file: ansible-playbook my_yml_file.yml
+•	Install Docker.io: sudo apt install docker.io
+
+•	Verify the status of docker: sudo systemctl status docker
+
+•	Start Docker if it is not running: sudo systemctl start docker
+
+•	Pull Ansible Docker Container : sudo docker pull cyberxsecurity/ansible
+
+•	Launch Ansible Container: docker run -ti cyberxsecurity/ansible:latest bash
+
+•	To View docker container list created: sudo docker ps
+
+•	Start the Docker container created: sudo docker start container_name
+
+•	Activate shell on container: sudo docker attach container_name
+
+•	To view ansible created: cd /etc/ansible
+
+•	Create yml file by using the extenton: my_yml_file.yml
+
+•	Run yml file: ansible-playbook my_yml_file.yml
+   
